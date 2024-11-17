@@ -87,13 +87,7 @@
 }
 
 
-// Rounded corners
-//
-// These rulesets must come after the sizing ones to properly override sm and lg
-// border-radius values when extending. They're more specific than we'd like
-// with the `.input-group >` part, but without it, we cannot override the sizing.
 
-// stylelint-disable-next-line no-duplicate-selectors
 .input-group {
   &:not(.has-validation) {
     > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),

@@ -10,8 +10,7 @@
   color: $form-label-color;
 }
 
-// For use with horizontal and inline forms, when you need the label (or legend)
-// text to align with the form controls.
+
 .col-form-label {
   padding-top: add($input-padding-y, $input-border-width);
   padding-bottom: add($input-padding-y, $input-border-width);
